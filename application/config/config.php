@@ -57,7 +57,7 @@ define('ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.fo
 define('IOS_APK_LINK', 'https://apps.apple.com/us/app/foodi-food-delivery/id1610910233');
 define('RIDER_ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodirider');
 define('RESTAURANT_ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodirider');
-define('DEEP_LINK_BASE_URL', "https://www.foodibd.com/" . 'applink/');
+define('DEEP_LINK_BASE_URL', "https://localhost/git/food_ihealthy/" . 'applink/');
 
 /*
 |--------------------------------------------------------------------------

@@ -1988,7 +1988,7 @@ abstract class REST_Controller extends CI_Controller {
         elseif ($http_auth !== NULL)
         {
             // If the authentication header is set as basic, then extract the username and password from
-            // HTTP_AUTHORIZATION e.g. my_username:my_password. This is passed in the .htaccess file
+            // HTTP_AUTHORIZATION e.g. my_username:my_password. This is passed in the ..htaccess file
             if (strpos(strtolower($http_auth), 'basic') === 0)
             {
                 // Search online for HTTP_AUTHORIZATION workaround to explain what this is doing

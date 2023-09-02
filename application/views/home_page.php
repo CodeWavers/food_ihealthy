@@ -5,9 +5,9 @@
 	<div class="container">
 		<div class="your-doorstep">
 
-			<!--<h1><?php echo $this->lang->line('always_at_door'); ?></h1>-->
-			<!--<p><?php echo $this->lang->line('order_fav_rest'); ?></p>-->
-			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<!--			<h1>--><?php //echo $this->lang->line('always_at_door'); ?><!--</h1>-->
+			<p><?php echo $this->lang->line('order_fav_rest'); ?></p>
+			<br /><br /><br /><br /><br /><br />
 			<form id="home_search_form" class="search-form">
 				<div class="form-group">
 					<input type="text" name="address" id="address" onFocus="geolocate('')" placeholder="<?php echo $this->lang->line('enter_address'); ?>" value="">
