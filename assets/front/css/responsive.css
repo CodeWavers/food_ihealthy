@@ -66,7 +66,7 @@
 		padding: 24px 10px;
 	}
 	.your-doorstep>p {
-		font-size: 22px;
+		font-size: 50px;
 	}
 	.search-form .form-group input[type="text"] {
 		font-size: 16px;
@@ -232,7 +232,7 @@
 		top: 52px;
 	}
 	.your-doorstep>p {
-		font-size: 18px;
+		font-size: 40px;
 	}
 
 }

@@ -24,22 +24,22 @@ class Home extends CI_Controller
 		$data['current_page'] = 'HomePage';
 		$data['page_title'] = $this->lang->line('home_page') . ' | ' . $this->lang->line('site_title');
 		$this->session->set_userdata('previous_url', current_url());
-		if ($this->session->userdata('is_user_login')) {
-			$restaurants = $this->home_model->getRestaurants();
-			$data['restaurants'] = array_values($restaurants);
-		} else {
-			$restaurants = $this->home_model->getRestaurants("popular");
-			$data['restaurants'] = array_values($restaurants);
-		}
-		if (!empty($data['restaurants'])) {
-			foreach ($data['restaurants'] as $key => $value) {
-				$ratings = $this->home_model->getRestaurantReview($value['MainRestaurantID']);
-				$data['restaurants'][$key]['ratings'] = $ratings;
-			}
-		}
+//		if ($this->session->userdata('is_user_login')) {
+//			$restaurants = $this->home_model->getRestaurants();
+//			$data['restaurants'] = array_values($restaurants);
+//		} else {
+//			$restaurants = $this->home_model->getRestaurants("popular");
+//			$data['restaurants'] = array_values($restaurants);
+//		}
+//		if (!empty($data['restaurants'])) {
+//			foreach ($data['restaurants'] as $key => $value) {
+//				$ratings = $this->home_model->getRestaurantReview($value['MainRestaurantID']);
+//				$data['restaurants'][$key]['ratings'] = $ratings;
+//			}
+//		}
 		// $data['categories'] = $this->home_model->getAllCategories();
-		$data['feature_items'] = $this->home_model->getFeatureItems();
-		$data['campaign'] = $this->home_model->getCampaign();
+	//	$data['feature_items'] = $this->home_model->getFeatureItems();
+		//$data['campaign'] = $this->home_model->getCampaign();
 
 		// $data['coupons'] = $this->home_model->getAllCoupons();
 		$this->load->view('home_page', $data);

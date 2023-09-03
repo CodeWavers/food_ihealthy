@@ -1,7 +1,7 @@
 /* Document ========================================================================== */
 
 html {
-	font-family: sans-serif;
+	font-family: 'KoHo', sans-serif;
 	line-height: 1.15;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -152,7 +152,7 @@ input,
 optgroup,
 select,
 textarea {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	font-size: 100%;
 	line-height: 1.15;
 	margin: 0;
@@ -274,84 +274,97 @@ input {
 /* Basic typography style for copy text ========================================================================== */
 
 @font-face {
-	font-family: 'Cera Pro';
+	font-family: 'Spartan';
+	src: url('../fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype');
+	/*font-weight: 700; !* Adjust the weight if needed *!*/
+	font-style: normal;
+}
+@font-face {
+	font-family: 'KoHo';
+	src: url('../fonts/KoHo-Regular.ttf') format('truetype');
+	/*font-weight: 700; !* Adjust the weight if needed *!*/
+	font-style: normal;
+}
+
+@font-face {
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Thin.woff2') format('woff2'), url('../fonts/CeraPro-Thin.woff') format('woff');
 	font-weight: 100;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('CeraPro-LightItalic.woff2') format('woff2'), url('CeraPro-LightItalic.woff') format('woff');
 	font-weight: 300;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-MediumItalic.woff2') format('woff2'), url('../fonts/CeraPro-MediumItalic.woff') format('woff');
 	font-weight: 500;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-BoldItalic.woff2') format('woff2'), url('../fonts/CeraPro-BoldItalic.woff') format('woff');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Bold.woff2') format('woff2'), url('../fonts/CeraPro-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Light.woff2') format('woff2'), url('../fonts/CeraPro-Light.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Regular.woff2') format('woff2'), url('../fonts/CeraPro-Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Italic.woff2') format('woff2'), url('../fonts/CeraPro-Italic.woff') format('woff');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-ThinItalic.woff2') format('woff2'), url('../fonts/CeraPro-ThinItalic.woff') format('woff');
 	font-weight: 100;
 	font-style: italic;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Medium.woff2') format('woff2'), url('../fonts/CeraPro-Medium.woff') format('woff');
 	font-weight: 500;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-Black.woff2') format('woff2'), url('../fonts/CeraPro-Black.woff') format('woff');
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Cera Pro';
+font-family: 'KoHo', sans-serif;
 	src: url('../fonts/CeraPro-BlackItalic.woff2') format('woff2'), url('../fonts/CeraPro-BlackItalic.woff') format('woff');
 	font-weight: 900;
 	font-style: italic;
@@ -539,7 +552,7 @@ i {
 }
 
 body {
-	font-family: 'Cera Pro';
+	font-family: 'KoHo', sans-serif;
 	font-size: 15px;
 	font-weight: normal;
 	color: black;
@@ -551,7 +564,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Cera Pro';
+	font-family: 'KoHo', sans-serif;
 	color: black;
 }
 
@@ -574,7 +587,7 @@ a:focus {
 
 input,
 textarea {
-	font-family: 'Cera Pro';
+	font-family: 'KoHo', sans-serif;
 }
 
 img {
@@ -738,7 +751,12 @@ body.fixed {
 }
 
 .header-inner nav>ul>li>a {
-	font-size: 16px;
+	color: #000;
+	font-family: 'Inter' !important;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 	position: relative;
 	padding: 23px 12px;
 	display: block;
@@ -749,7 +767,9 @@ body.fixed {
 	bottom: 0px;
 	left: 0;
 	width: 100%;
-	height: 4px;
+	/*width: 82px;*/
+	height: 8px;
+	flex-shrink: 0;
 	background: #ffb300;
 	background: var(--main-color);
 	display: none;
@@ -1106,11 +1126,14 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 }
 
 .your-doorstep>p {
-	font-size: 22px;
-	margin-bottom: 30px;
-	color: white;
-	font-weight: bold;
-	-webkit-text-stroke: 1px black;
+	color: #FFF;
+	text-align: center;
+	text-shadow: 8px 8px 8px #000;
+	font-family: KoHo;
+	font-size: 70px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
 .your-doorstep .search-form {
@@ -1134,24 +1157,49 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 .search-form .form-group input[type="text"] {
 	width: 100%;
 	height: 50px;
-	border: 0px;
 	font-size: 16px;
 	padding: 0 15px 0 50px;
-	background: #fff url(../images/address.svg) no-repeat left 13px center / 22px auto;
+	background: transparent url(../images/address.svg) no-repeat left 13px center / 22px auto;
+	border-radius: 10px;
+	border: 2px solid #ADADAD;
+	color: white; /* Set text color to white */
+	font-weight: bold; /* Set text to bold */
 }
-
+/* Style the placeholder text */
+.search-form .form-group input[type="text"]::placeholder {
+	color: white; /* Set placeholder text color to white */
+	font-weight: bold; /* Set placeholder text to bold */
+}
 .search-form .form-group input[type="button"] {
-	border-radius: 0 5px 5px 0;
+	border-radius: 10px;
+	background: #FFF;
+	color: #000000;
+	font-weight: bold;
+	border: none;
+	margin-left: 15px;
+
 }
 
 .search-form .form-group input[type="button"]:active,
 .search-form .form-group input[type="button"]:focus,
 .search-form .form-group input[type="button"]:hover {
-	background: #fff;
-	color: #ffb300;
-	color: var(--main-color);
-	border: 2px solid #ffb300;
-	border: 2px solid var(--main-color);
+	background:var(--main-color);
+	color: #FFF;
+}
+
+.white-button input[type="button"] {
+	border-radius: 10px;
+	background: #FFF;
+	color: #000000;
+	font-weight: 400;
+	border: 1px solid;
+	line-height: normal;
+	font-family: 'KoHo', sans-serif !important;
+
+}
+.white-button input[type="button"]:hover {
+	background:var(--main-color);
+	color: #FFF;
 }
 
 .heading-title {
@@ -1186,11 +1234,17 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 }
 
 .heading-title-02>h4 {
-	color: #161212;
+	/*color: #161212;*/
 	font-size: calc(20px + 17 * ((100vw - 300px) / (1920 - 300)));
+	/*font-weight: 700;*/
+	/*line-height: 1.2;*/
+	/*margin-bottom: 15px;*/
+	color: #000;
+	font-style: normal;
 	font-weight: 700;
-	line-height: 1.2;
-	margin-bottom: 15px;
+	line-height: normal;
+	font-family: 'KoHo', sans-serif !important;
+	text-transform:uppercase;
 }
 
 .heading-title-02>h4>span {
@@ -1513,16 +1567,16 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	display: -ms-flexbox;
 	display: flex;
 	align-items: center;*/
-	background: rgba(255, 255, 255, 1);
-	background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(30%, rgba(255, 255, 255, 1)), color-stop(30%, rgba(237, 238, 243, 1)), color-stop(100%, rgba(237, 238, 243, 1)));
-	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);
-	background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);
-	background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);
-	background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#edeef3', GradientType=1);
-	border-top: 95px solid #fff;
-	border-bottom: 54px solid #fff;
+	/*background: rgba(255, 255, 255, 1);*/
+	/*background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);*/
+	/*background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(30%, rgba(255, 255, 255, 1)), color-stop(30%, rgba(237, 238, 243, 1)), color-stop(100%, rgba(237, 238, 243, 1)));*/
+	/*background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);*/
+	/*background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);*/
+	/*background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);*/
+	/*background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(237, 238, 243, 1) 30%, rgba(237, 238, 243, 1) 100%);*/
+	/*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#edeef3', GradientType=1);*/
+	/*border-top: 100px solid #fff;*/
+	/*border-bottom:60px solid #fff;*/
 	position: relative;
 }
 
@@ -1532,7 +1586,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 
 .restaurant-app-content::after {
 	content: "";
-	background: url(../images/font_food-bg.png) no-repeat right center / auto 100%;
+	/*background: url(../images/font_food-bg.png) no-repeat right center / auto 100%;*/
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -1541,9 +1595,9 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 }
 
 .restaurant-app-img {
-	margin-top: -105px;
-	margin-left: -74px;
-	margin-bottom: -53px;
+	/*margin-top: -105px;*/
+	/*margin-left: -74px;*/
+	/*margin-bottom: -53px;*/
 	position: relative;
 	z-index: 9;
 }
@@ -1558,11 +1612,19 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 
 .restaurant-app-text p,
 .driver-app-content p {
-	font-size: 18px;
-	font-weight: 500;
-	color: #161212;
-	line-height: 25px;
-	margin-bottom: 28px;
+	/*font-size: 18px;*/
+	/*font-weight: 500;*/
+	/*color: #161212;*/
+	/*line-height: 25px;*/
+	/*margin-bottom: 28px;*/
+	color: #000;
+	font-size: 35px;
+	font-style: normal;
+	line-height: normal;
+	text-align: justify;
+	font-family: 'KoHo', sans-serif !important;
+	font-weight: 400;
+
 }
 
 .app-download {
@@ -1611,9 +1673,9 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 }
 
 .footer-area {
-	background: #ffb300;
-	background: var(--second-color);
+	background: var(--main-color);
 	padding: 50px 0 7px;
+	color: white;
 }
 
 .footer-area .row {
@@ -1623,13 +1685,31 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 .copyright p {
 	margin: 0px;
 	color: #fff;
-	text-align: center;
+	text-align: start;
 	font-size: 14px;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
+	font-family: "Spartan" !important;
+	font-style: normal;
+	line-height: normal;
 }
-
+.develop_by{
+	font-family: "Spartan" !important;
+	text-align: end;
+	font-style: normal;
+	line-height: normal;
+}
+.develop_by>p>span>a{
+	font-weight: bolder;
+	color:#FFF !important;
+}
+.develop_by>p>span>a:hover {
+	text-decoration: underline;
+}
 .copyright p a {
 	color: #fff;
+	font-family: "Spartan" !important;
+	font-weight: bolder;
+	color:#FFF !important;
 }
 
 .copyright p a:hover {
@@ -1637,7 +1717,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 }
 
 .social-icon {
-	text-align: right;
+	text-align: end;
 }
 
 .social-icon ul {
@@ -1648,9 +1728,9 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
+	justify-content: end;
 	list-style: none;
-	align-items: center;
+	align-items: end;
 }
 
 .social-icon ul li {
@@ -1664,8 +1744,8 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 .social-icon ul li a {
 	color: #fff;
 	border: 2px solid #fff;
-	width: 32px;
-	height: 32px;
+	width: 28px;
+	height: 28px;
 	display: -webkit-box;
 	display: -moz-box;
 	display: -webkit-flex;
@@ -1674,7 +1754,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	line-height: 32px;
+	line-height: 28px;
 	font-size: 14px;
 	border-radius: 50%;
 	-webkit-transition: all 0.5s ease-out;
@@ -1688,19 +1768,56 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	color: #ffb300;
 	color: var(--main-color);
 }
-.footer-links li {
-	display: inline-block;
-    margin: 0 10px;
+.footer-links li::before {
+	content: "\2192"; /* Unicode character for right arrow */
+	margin: 10px 0;
+
+
 }
+.footer-links {
+	padding-left: 20px;
+	color: #FFF;
+	font-family: 'Spartan' !important;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px; /* 245.833% */
+}
+
 .footer-links li  a {
 	color: #fff;
+
 }
+.copyDev{
+	background: #2D2D2D;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.contact-button>a{
+
+	border-radius: 10px;
+	background:  var(--main-color);
+	color:#FFF;
+	font-weight: 400;
+	border: 1px solid;
+	line-height: normal;
+	font-family: 'KoHo', sans-serif !important;
+}
+
+.contact-button>a:hover {
+	background:#FFF;
+	color: var(--main-color);
+}
+/* Set the height for the footer-logo */
 .footer-logo {
-    text-align: center;
+	text-align: start;
+	height: 100%;
+	/* Other styles for the footer-logo */
 }
+
 .footer-links ul {
 	margin: 20px 0;
-	text-align: center;
+
+	text-align: start;
 }
 .footer-area hr {
 	width: 100%;
@@ -1807,6 +1924,13 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	justify-content: center;
 	max-width: 910px;
 	margin: auto;
+	color: #FFF;
+	text-align: center;
+	font-family: 'KoHo';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
 }
 
 .inner-pages-form .form-group {
@@ -1841,6 +1965,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 .inner-pages-form .delivery-address {
 	padding-right: 15px;
 	max-width: 295px;
+	font-family: 'KoHo', sans-serif !important;
 }
 
 .inner-pages-form .form-group input[type="text"] {
@@ -1854,23 +1979,34 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 }
 
 .inner-pages-form .form-group.delivery-address input[type="text"] {
-	background-image: url(../images/delivery-icon.svg);
+	border-radius: 10px;
+	border: 2px solid #ADADAD;
+	background: transparent url(../images/address.svg) no-repeat left 13px center / 22px auto;
 	background-size: 22px auto;
 	background-position: left 12px center;
 	font-size: 15px;
+	color: white; /* Set text color to white */
+	font-weight: bold; /* Set text to bold */
 }
 
 .inner-pages-form .form-group.search-restaurant input[type="text"] {
-	border-radius: 5px 0 0 5px;
-	background-image: url(../images/search-icon.svg);
+	background: transparent url(../images/search-icon.svg) no-repeat left 13px center / 22px auto;
+	border-radius: 10px;
+	border: 2px solid #ADADAD;
 	background-size: 17px auto;
 	background-position: left 14px center;
+	color: white; /* Set text color to white */
+	font-weight: bold; /* Set text to bold */
 }
 
 .inner-pages-form .form-group.search-restaurant input[type="button"] {
 	border-radius: 0 5px 5px 0;
 }
-
+/* Style the placeholder text */
+.inner-pages-form .form-group input[type="text"]::placeholder {
+	color: white; /* Set placeholder text color to white */
+	font-weight: bold; /* Set placeholder text to bold */
+}
 .rest-detail-section .inner-pages-form .form-group {
 	align-items: flex-end;
 }
@@ -1878,7 +2014,22 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 .rest-detail-section .inner-pages-form .form-group.search-restaurant input[type="button"] {
 	height: 45px;
 }
-
+.order-food-search{
+	border-radius: 10px !important;
+	background: #FFF;
+	color: #000000;
+	font-weight: bold !important;
+	border: none;
+	margin-left: 15px;
+	font-family: 'KoHo', sans-serif !important;
+}
+.order-food-search:active,
+.order-food-search:focus,
+.order-food-search:hover
+{
+	background:var(--main-color);
+	color: #FFF;
+}
 .inner-pages-section {
 	padding: 50px 0;
 	background: #F7F7F7;
@@ -6100,7 +6251,7 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 		width: 100%;
 	}
 	.restaurant-app-content {
-		background: #edeef3;
+		background: white;
 		padding: 20px;
 		border: 0;
 		border-radius: 0 50px;
@@ -6256,7 +6407,7 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 		margin: auto;
 	}
 	.social-icon ul {
-		justify-content: center;
+		justify-content: end;
 	}
 	.best-offers,
 	.quick-searches,
@@ -7105,17 +7256,28 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 	object-fit: cover;
 }
 
-.restaurant-contact-div{
-	padding: 250px 100px;
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-	gap: 20px;
-	/* background: url(../images/home_res_app_bg.png) no-repeat center center; */
-	/* background-size: 100% 100%; */
-	background: url(../images/home_res_app_bg.png) no-repeat top center /cover;
+.restaurant-contact-div {
+	position: relative;
+	height: 100vh;
+	background-size: cover; /* Use cover to maintain aspect ratio and cover the entire section */
+	background-position: center; /* Center the background image */
 }
 
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden; /* Hide overflowing content within the video container */
+}
+
+/* Style the video player */
+video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
 .contact-left{
 	padding: 30px 0;
 }
@@ -7189,4 +7351,29 @@ margin-bottom: 10px;
 	width: 100%;
 	padding: 2px;
 	background:var(--main-color);
+}
+/* width */
+::-webkit-scrollbar {
+	width: 7px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background:white;
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: var(--main-color);
+	border-radius: 10px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: var(--main-color);
+
 }

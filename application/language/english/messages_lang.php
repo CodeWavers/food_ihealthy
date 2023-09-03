@@ -92,9 +92,9 @@ $lang['add_order'] = 'Add Order';
 
 //site message and lable
 $lang['site_name'] = 'DevenPort';
-$lang['dev_site_name'] = 'Foodi';
-$lang['site_title'] = 'Foodi';
-$lang['site_footer'] = 'Foodi';
+$lang['dev_site_name'] = 'Ihealthy';
+$lang['site_title'] = 'Ihealthy';
+$lang['site_footer'] = 'Ihealthy';
 $lang['success_add'] = 'Successfully Added';
 $lang['success_edit'] = 'Successfully Edit';
 $lang['success_update'] = 'Successfully Updated';
@@ -443,8 +443,8 @@ Must be greater than Amount
 Passwords must contain at least 8 characters, including uppercase, lowercase letters, symbols and numbers.*/
 /*
 Passwords minimum 8 characters*/
-$lang['always_at_door'] = "FOODI";
-$lang['order_fav_rest'] = 'FOOD DELIVERIES';
+$lang['always_at_door'] = "Ihealthy";
+$lang['order_fav_rest'] = 'Nurturing Body and Mind';
 
 //$lang['always_at_door'] = "Always at Your Doorstep";
 //$lang['order_fav_rest'] = 'Order from your favourite restaurant';
@@ -471,6 +471,11 @@ $lang['import_menu'] = 'Import Menu';
 $lang['menu_file'] = 'Menu File';
 $lang['assign_driver'] = "Assign Driver";
 $lang['track_driver'] = "Track Driver";
+$lang['about_home'] = "About";
+$lang['home_about_text'] = "I Healthy Foods & Café was established by Emarati Group on July 30, 2016 at Al Warqaa 1. Within a short span of time, we established a brand identity and gained an understanding of the taste of the people around Dubai, .................";
+$lang['read_more'] = "Read More";
+$lang['order_now'] = "Order Now";
+$lang['home_menu_text'] = "Easy, we curate experiences based on how we like to dine – so our menu is meant to be shared, offering a family-style dining experience. We have let go of coursed dining and are not looking back.";
 
 // new translations
 $lang['order_preparing'] = 'Your order is being prepared.';
@@ -509,7 +514,7 @@ $lang['contact_us'] = 'Contact Us';
 $lang['about_us'] = 'About Us';
 $lang['legal_notice'] = 'Legal Notice';
 $lang['privacy_policy'] = 'Privacy Policy';
-$lang['terms_and_conditions'] = 'User Terms And Conditions';
+$lang['terms_and_conditions'] = 'Terms And Conditions';
 $lang['home_page'] = 'Home Page';
 $lang['title_login'] = 'Login';
 $lang['title_registration'] = 'Registration';
@@ -702,7 +707,8 @@ $lang['send_us_msg'] = 'Send Us Message';
 
 //new changes
 $lang['number_already_registered'] = "User have already registered with this Phone Number!";
-$lang['copyright_footer'] = "COPYRIGHT © 2020. ALL RIGHTS RESERVED.";
+$lang['copyright_footer'] = "Copyright © 2023. All right reserved.";
+$lang['develop_by'] = "Devenport";
 $lang['open'] = "OPEN";
 $lang['enter_address'] = "Enter your address";
 $lang['lets_get_started'] = "Lets Get Started";

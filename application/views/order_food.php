@@ -14,7 +14,7 @@ $maximum_range = 50000; ?>
 				</div>
 				<div class="form-group search-restaurant">
 					<input type="text" name="resdishes" id="resdishes" value="" placeholder="<?php echo $this->lang->line('search_res_dishes') ?>">
-					<input type="button" name="Search" value="<?php echo $this->lang->line('search'); ?>" class="btn" onclick="fillInAddress('order_food')">
+					<input type="button" name="Search" value="<?php echo $this->lang->line('search'); ?>" class="btn order-food-search" onclick="fillInAddress('order_food')">
 				</div>
 			</form>
 		</div>
@@ -24,11 +24,7 @@ $maximum_range = 50000; ?>
 <section class="inner-pages-section order-food-section">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
-				<div class="heading-title">
-					<h2><?php echo $this->lang->line('select_fav_res') ?></h2>
-				</div>
-			</div>
+
 			<div class="col-md-5 col-lg-3">
 				<!--<div class="food-filter">-->
 				<!--	<div class="filter-title-main">-->
@@ -67,6 +63,11 @@ $maximum_range = 50000; ?>
 				<img src="<?php echo base_url(); ?>assets/front/images/order_food.jpg">
 			</div>
 			<div class="col-md-7 col-lg-9">
+				<div class="col-lg-12">
+					<div class="heading-title">
+						<h2><?php echo $this->lang->line('select_fav_res') ?></h2>
+					</div>
+				</div>
 				<div class="row restaurant-box-row" id="order_from_restaurants">
 					<?php if (!empty($restaurants)) {
 						foreach ($restaurants as $key => $value) { ?>
