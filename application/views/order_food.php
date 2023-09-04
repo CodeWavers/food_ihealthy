@@ -26,40 +26,7 @@ $maximum_range = 50000; ?>
 		<div class="row">
 
 			<div class="col-md-5 col-lg-3">
-				<!--<div class="food-filter">-->
-				<!--	<div class="filter-title-main">-->
-				<!--		<h5><?php echo $this->lang->line('filter') ?></h5>-->
-				<!--	</div>-->
-				<!--	<div class="filter-box-main">-->
-				<!--		<div class="filter-box">-->
-				<!--			<h6><?php echo $this->lang->line('by_food_type') ?></h6>-->
-				<!--			<div class="filter-checkbox">-->
-				<!--				<div class="checkbox-box">-->
-				<!--					<label>-->
-				<!--						<input type="checkbox" name="food_veg" id="food_veg" value="1" onchange="getFavouriteResturants()">-->
-				<!--						<span><i class="iicon-icon-15 veg"></i><?php echo $this->lang->line('veg') ?></span>-->
-				<!--					</label>-->
-				<!--				</div>-->
-				<!--				<div class="checkbox-box">-->
-				<!--					<label>-->
-				<!--						<input type="checkbox" name="food_non_veg" id="food_non_veg" value="1" onchange="getFavouriteResturants()">-->
-				<!--						<span><i class="iicon-icon-15 non-veg"></i><?php echo $this->lang->line('non_veg') ?></span>-->
-				<!--					</label>-->
-				<!--				</div>-->
-				<!--			</div>-->
-				<!--		</div>-->
-				<!--		<div class="filter-box" id="distance_filter">-->
-				<!--			<h6><?php echo $this->lang->line('by_distance') ?></h6>-->
-				<!--			<div class="distance-slider">-->
-				<!--				<div id="slider-range"></div>-->
-				<!--			    <div class="distance-value value01"><span id="slider-range-value1"></span></div>-->
-				<!--			    <div class="distance-value value02"><span id="slider-range-value2"></span></div>-->
-				<!--			    <input type="hidden" name="minimum_range" id="minimum_range" class="form-control" value="<?php echo $minimum_range; ?>" />-->
-				<!--			    <input type="hidden" name="maximum_range" id="maximum_range" class="form-control" value="<?php echo $maximum_range; ?>" />-->
-				<!--			</div>-->
-				<!--		</div>-->
-				<!--	</div>-->
-				<!--</div>-->
+
 				<img src="<?php echo base_url(); ?>assets/front/images/order_food.jpg">
 			</div>
 			<div class="col-md-7 col-lg-9">

@@ -17,16 +17,16 @@
 						if (!empty($cmsPages)) {
 							foreach ($cmsPages as $key => $value) {
 								if ($value->CMSSlug == "about-us") { ?>
-									<li class="<?php echo ($current_page == 'AboutUs') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'about-us'; ?>"> <?php echo $this->lang->line('about_us') ?></a></li>
+									<li class="<?php echo ($current_page == 'AboutUs') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'about-us'; ?>"> > <?php echo $this->lang->line('about_us') ?></a></li>
 								<?php }
 								else if($value->CMSSlug == "contact-us") { ?>
-									<li class="<?php echo ($current_page == 'ContactUs') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'contact-us'; ?>"> <?php echo $this->lang->line('contact_us') ?></a></li>
+									<li class="<?php echo ($current_page == 'ContactUs') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'contact-us'; ?>"> > <?php echo $this->lang->line('contact_us') ?></a></li>
 								<?php }
 								else if($value->CMSSlug == "terms") { ?>
-									<li class="<?php echo ($current_page == 'TermsAndConditions') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'terms-and-conditions'; ?>"> <?php echo $this->lang->line('terms_and_conditions')?> </a></li>
+									<li class="<?php echo ($current_page == 'TermsAndConditions') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'terms-and-conditions'; ?>"> > <?php echo $this->lang->line('terms_and_conditions')?> </a></li>
 								<?php }
 								else if($value->CMSSlug == "privacy-policy") { ?>
-									<li class="<?php echo ($current_page == 'PrivacyPolicy') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'privacy-policy'; ?>"> <?php echo $this->lang->line('privacy_policy')?> </a></li>
+									<li class="<?php echo ($current_page == 'PrivacyPolicy') ? 'current_page_item' : ''; ?>"><a href="<?php echo base_url() . 'privacy-policy'; ?>"> > <?php echo $this->lang->line('privacy_policy')?> </a></li>
 								<?php }
 
 							}
@@ -44,7 +44,7 @@
 						<li><a href="#"><i class="iicon-icon-08"></i></a></li>
 						<li><a href="#"><i class="iicon-icon-09"></i></a></li>
 						<li><a href="#"><i class="iicon-icon-10"></i></a></li>
-						<li><a href="#"><i class="iicon-icon-07"></i></a></li>
+						<li><a href="#"><span class="fa-brands fa-instagram"></span></a></li>
 					</ul>
 				</div>
 			</div>

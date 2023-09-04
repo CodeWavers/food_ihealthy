@@ -752,14 +752,16 @@ body.fixed {
 
 .header-inner nav>ul>li>a {
 	color: #000;
-	font-family: 'Inter' !important;
-	font-size: 24px;
+	/*font-family: 'Inter' !important;*/
+	font-family: 'KoHo', sans-serif !important;
+	font-size: 1.2rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
 	position: relative;
 	padding: 23px 12px;
 	display: block;
+	text-decoration: none;
 }
 
 #magic-line {
@@ -1109,14 +1111,65 @@ body.fixed {
 }
 
 .home-banner {
-	background: url(../images/banner-image.jpg) no-repeat center center / cover;
-	padding: 8rem 0 13rem;
+	/*background: url(../images/banner-image.jpg) no-repeat center center / cover;*/
+	/*padding: 8rem 0 13rem;*/
+	background: no-repeat center center / cover;
+	position: relative;
 }
+
+/*.your-doorstep {*/
+/*	text-align: center;*/
+/*}*/
+
 
 .your-doorstep {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
+	/*background: rgba(255, 255, 255, 0.8); !* Add background color or opacity as needed *!*/
+	padding: 20px;
 }
 
+.carousel-inner img {
+	width: 100%;
+	height: auto; /* This will maintain the aspect ratio of the images */
+	max-height: 450px; /* Adjust this value as needed for the fixed height */
+}
+
+/*.carousel-indicators li{*/
+/*	display:inline-block ;*/
+/*	width:40px !important;*/
+/*	height:20px !important;*/
+/*	margin:1px ;*/
+/*	text-indent:-999px ;*/
+/*	border:1px solid #fff ;*/
+/*	border-radius:10px ;*/
+/*	cursor:pointer;*/
+/*	background-color:#000 \9 ;*/
+/*	background-color:rgba(0,0,0,0) !important;*/
+/*}*/
+.carousel-indicators li {
+	display: inline-block;
+	width: 70px !important;
+	height: 20px !important;
+	margin: 1px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0) !important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='69' height='27' viewBox='0 0 69 27' fill='none'%3E%3Cpath d='M13 0H69L55.5 27H0L13 0Z' fill='white' fill-opacity='0.5'/%3E%3C/svg%3E");
+	background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+
+
+.carousel-indicators .active{
+	/*margin:0;*/
+	/*width:12px;*/
+	/*height:12px;*/
+	/*background-color:#fff !important;*/
+	/*padding: 5px;*/
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='69' height='27' viewBox='0 0 69 27' fill='none'%3E%3Cpath d='M13 0H69L55.5 27H0L13 0Z' fill='white'/%3E%3C/svg%3E");
+}
 .your-doorstep>h1 {
 font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	font-weight: bold;
@@ -1618,7 +1671,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	/*line-height: 25px;*/
 	/*margin-bottom: 28px;*/
 	color: #000;
-	font-size: 35px;
+	font-size: 1rem;
 	font-style: normal;
 	line-height: normal;
 	text-align: justify;
@@ -1769,7 +1822,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	color: var(--main-color);
 }
 .footer-links li::before {
-	content: "\2192"; /* Unicode character for right arrow */
+	/*content: "\2192"; !* Unicode character for right arrow *!*/
 	margin: 10px 0;
 
 
@@ -5757,6 +5810,10 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 	.restaurant-app-text {
 		max-width: 450px;
 	}
+	.restaurant-app-text-left {
+		max-width: 450px;
+		padding-left: 50px !important;
+	}
 	.rest-box-row {
 		margin-left: -15px;
 		margin-right: -15px;
@@ -6257,9 +6314,10 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 		border-radius: 0 50px;
 	}
 	.restaurant-app-text {
-		padding: 0px;
+		padding: 0px ;
 		max-width: 100%;
 		text-align: center;
+		padding-left: 0px !important;
 	}
 	.restaurant-app .app-download {
 		margin: auto;
@@ -6416,7 +6474,7 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 	}
 	.restaurant-app-text p,
 	.driver-app-content p {
-		font-size: 14px;
+		font-size: 1rem;
 		line-height: 24px;
 	}
 	.cart-list-content h5,
