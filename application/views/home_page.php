@@ -51,13 +51,15 @@
 		<div class="text-center mt-5"><!-- Added Bootstrap class for centering -->
 			<div class="your-doorstep">
 				<p><?php echo $this->lang->line('order_fav_rest'); ?></p>
-				<br /><br /><br />
+
 				<form id="home_search_form" class="search-form">
 					<div class="form-group">
 						<input type="text" name="address" id="address" onFocus="geolocate('')" placeholder="<?php echo $this->lang->line('enter_address'); ?>" value="">
 						<input type="button" name="Search" value="<?php echo $this->lang->line('search'); ?>" class="btn" onclick="fillInAddress('home_page')">
+
 					</div>
 				</form>
+
 			</div>
 		</div>
 

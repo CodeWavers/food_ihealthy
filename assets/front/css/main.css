@@ -1183,7 +1183,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	text-align: center;
 	text-shadow: 8px 8px 8px #000;
 	font-family: KoHo;
-	font-size: 70px;
+	font-size:3rem;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;

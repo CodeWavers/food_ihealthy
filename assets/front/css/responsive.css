@@ -65,9 +65,9 @@
 		font-size: 15px;
 		padding: 24px 10px;
 	}
-	.your-doorstep>p {
-		font-size: 50px;
-	}
+	/*.your-doorstep>p {*/
+	/*	font-size: 50px;*/
+	/*}*/
 	.search-form .form-group input[type="text"] {
 		font-size: 16px;
 	}
@@ -231,10 +231,9 @@
 	#example-one {
 		top: 52px;
 	}
-	.your-doorstep>p {
-		font-size: 40px;
+	.your-doorstep > p {
+		font-size: 2rem; /* Adjust as needed for smaller screens */
 	}
-
 }
 
 @media (max-width:767px) {
@@ -731,4 +730,58 @@
 	.carousel-inner img {
 		max-height: 300px; /* Adjust the height for smaller screens */
 	}
+	.contact-button a.btn {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+
+	.copyDev {
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.develop_by {
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	/* Additional mobile styles */
+	.footer-area {
+		padding: 20px 0;
+	}
+
+	.footer-links ul li {
+		font-size: 14px;
+	}
+
+	.contact-button a.btn {
+		/*font-size: 14px;*/
+		/*padding: 8px 16px;*/
+		display: none;
+	}
+
+	.social-icon ul li {
+		margin-right: 8px;
+	}
+	.your-doorstep {
+		text-align: center; /* Center the content */
+		padding: 20px 0; /* Add padding to top and bottom */
+		top:80%;
+	}
+	.your-doorstep > p {
+		font-size: 2rem; /* Adjust as needed for even smaller screens */
+	}
+
+
+}
+@media (max-width: 480px) {
+	.carousel-indicators{
+		display: none;
+	}
+	.your-doorstep > p {
+		font-size: 1.5rem; /* Adjust as needed for even smaller screens */
+			top:80%;
+	}
+
+
 }
