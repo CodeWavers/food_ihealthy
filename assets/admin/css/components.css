@@ -170,10 +170,10 @@ h6.block {
 /* Links */
 a {
   text-shadow: none;
-  color:#ffb300;
+  color:#000000;
 }
 a:hover {
-  color:#ffb300;
+  color:#000000;
 }
 a:focus, a:hover, a:active {
   outline: 0;
@@ -796,13 +796,13 @@ Customized Bootstrap Buttons
 
 .btn-primary {
   color: white;
-  background-color: #ffb300;
-  border-color: #ffb300;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
   color: white;
-  background-color:#ffb300;
-  border-color: #ffb300;
+  background-color:#000000;
+  border-color: #000000;
 }
 .open .btn-primary.dropdown-toggle {
   color: white;
@@ -1297,7 +1297,7 @@ Dropdown Menu
   text-shadow: none;
   padding: 0px;
   margin: 0px;
-  background-color: #064D81;
+  background-color: #000000;
   box-shadow: 5px 5px rgba(102, 102, 102, 0.1);
   border: 1px solid #efefef;
   font-size: 14px;
@@ -1319,7 +1319,7 @@ Dropdown Menu
   text-decoration: none;
   background-image: none;
   background-color: #fff;
-  color:#ffb300!important;
+  color:#000000!important;
   filter: none;
 }
 .dropdown-menu.bottom-up {
@@ -2647,8 +2647,8 @@ Customized Bootstrap Pagination
   margin: 10px 0;
 }
 .pagination .active > a, .pagination .active > a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {	
-    background-color:#ffb300 !important;
-       border-color: #ffb300!important;
+    background-color:#000000 !important;
+       border-color: #000000!important;
       color: #000;
 }
 .pagination>li>a, .pagination>li>span {
@@ -3055,14 +3055,14 @@ Portlets
 /* Box portlet */
 .portlet.box {
   padding: 0px !important;
-  border:1px solid #ffb300!important;
+  border:1px solid #000000!important;
 }
 .portlet.box > .portlet-title {
   margin-bottom: 0px;
   padding: 7px 10px 5px 10px;
-  border-bottom: 1px solid #ffb300;
+  border-bottom: 1px solid #000000;
   color: #fff;
-  background:#ffb300 !important;
+  background:#000000 !important;
 }
 .portlet.box > .portlet-title > .tools {
   margin-top: 3px;
@@ -6241,7 +6241,7 @@ Grey Cascade
     background-color: #ddd;
 }
 .portlet.box.grey-cascade > .portlet-title > .caption > i {
-      color: #064d81;
+      color: #000000;
 }
 .portlet.box.grey-cascade > .portlet-title > .actions .btn-default {
   background: transparent !important;
@@ -8421,7 +8421,7 @@ Purple Seance
 #form_add_order .form-body .form-group .clone .remove{cursor: pointer;}
 #form_add_order .form-body .form-group .item-plus img{cursor: pointer;}
 #form_add_order .form-body .form-group .clone .remove i{color: #fff; background: red; height:25px; width:25px; border-radius: 50%; line-height:25px; text-align: center; }
-.dropdown-menu{background-color:#ffb300 !important}
+.dropdown-menu{background-color:#000000 !important}
 .logo img{max-width: 100%; height: auto;}
 .bg-login{background: url(../img/bg-login.png) no-repeat; width: 100%; height: 100%; position: absolute; top: 0; right: 0; background-size: cover;}
 .overlay{position: absolute; top:0; right:0; width: 100%; height: 100%; background: rgba(0,0,0,0.5);}
@@ -8436,7 +8436,7 @@ Purple Seance
 .td-wrap .error{font-size: 12px;}
 .horizontal-form-deal .inner-repeater{padding:1.5rem;background-color: #f3f3f3;margin-top: 1.5rem; margin-bottom: 1.5rem;}
 .horizontal-form-deal input[type="checkbox"]{cursor: pointer;}
-.horizontal-form-deal input[type="button"].btn-green{background-color: #ffb300; color:#fff;} 
+.horizontal-form-deal input[type="button"].btn-green{background-color: #000000; color:#fff;} 
 
 
 .ul-disc{list-style-type:disc;}

@@ -12,13 +12,13 @@ Page Header
 .page-header.navbar {    
     /*background: url("../img/header-bg-new.png") no-repeat scroll center center / cover;*/
     background: #fff;
-    border-bottom:5px solid #ffb300;
+    border-bottom:5px solid #000000;
   /* Top notification menu/bar */
   /* Header seaech box */
   /* Toggler button for sidebar expand/collapse and responsive sidebar menu */
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle:hover {
-  background-color:#ffb300;
+  background-color:#000000;
   color: #000;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle > i {
@@ -29,7 +29,7 @@ Page Header
   color: #86c672;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle {
-        background-color: #ffb300;
+        background-color: #000000;
     color: #fff;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle i,
@@ -37,10 +37,10 @@ Page Header
     color:#fff;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
-    background-color:#ffb300;
+    background-color:#000000;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle:focus {
-  background:#ffb300!important;
+  background:#000000!important;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle .username {
   color:#fff;
@@ -191,7 +191,7 @@ Page Header
 /* Page sidebar */
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover,
 .page-sidebar {
-  background-color:#ffb300;
+  background-color:#000000;
   /* Sidebar search */
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu,
@@ -220,12 +220,12 @@ Page Header
 .page-sidebar .page-sidebar-menu > li:hover > a,
 .page-sidebar .page-sidebar-menu > li.open > a {
 background: #fff;
-    color:#ffb300;
+    color:#000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > i,
 .page-sidebar .page-sidebar-menu > li:hover > a > i,
 .page-sidebar .page-sidebar-menu > li.open > a > i {
-     color:#ffb300;
+     color:#000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li:hover > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.open > a > .arrow.open:before,
 .page-sidebar .page-sidebar-menu > li:hover > a > .arrow:before,
@@ -239,18 +239,18 @@ background: #fff;
 .page-sidebar .page-sidebar-menu > li.active.open > a {
   background: #fff;
   border-top-color: transparent;
-  color:#ffb300;
+  color:#000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a:hover,
 .page-sidebar .page-sidebar-menu > li.active > a:hover,
 .page-sidebar .page-sidebar-menu > li.active.open > a:hover {
     background: #ffffff;
-    color:#ffb300;
+    color:#000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > i, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > i,
 .page-sidebar .page-sidebar-menu > li.active > a > i,
 .page-sidebar .page-sidebar-menu > li.active.open > a > i {
-  color:#ffb300;
+  color:#000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a > .arrow.open:before,
 .page-sidebar .page-sidebar-menu > li.active > a > .arrow:before,
@@ -289,12 +289,12 @@ background: #fff;
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li:hover > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li:hover > a > .arrow.open:before,
 .page-sidebar .page-sidebar-menu li:hover > a > .arrow:before,
 .page-sidebar .page-sidebar-menu li:hover > a > .arrow.open:before {
-  color:#ffb300;
+  color:#000000;
 }
 .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li.active > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li.active > a > .arrow.open:before,
 .page-sidebar .page-sidebar-menu li.active > a > .arrow:before,
 .page-sidebar .page-sidebar-menu li.active > a > .arrow.open:before {
-  color:#ffb300;
+  color:#000000;
 }
 .page-sidebar-closed .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu:hover .sub-menu, .page-sidebar-closed
 .page-sidebar .page-sidebar-menu:hover .sub-menu {
@@ -395,9 +395,9 @@ background: #fff;
 .page-sidebar .sidebar-search.sidebar-search-solid .input-group {
   background: none;
 }
-.page-sidebar  .page-sidebar-menu.page-sidebar-menu-closed .sub-menu > li > a{color:#ffb300!important;}
+.page-sidebar  .page-sidebar-menu.page-sidebar-menu-closed .sub-menu > li > a{color:#000000!important;}
 .page-sidebar  .page-sidebar-menu.page-sidebar-menu-closed .sub-menu > li:hover > a{color:#fff!important; background:#eaa707!important;}
-.page-sidebar  .page-sidebar-menu.page-sidebar-menu-closed  .sub-menu > li > a > i{color:#ffb300!important;}
+.page-sidebar  .page-sidebar-menu.page-sidebar-menu-closed  .sub-menu > li > a > i{color:#000000!important;}
 .page-sidebar  .page-sidebar-menu.page-sidebar-menu-closed  .sub-menu > li:hover > a > i{color: #fff!important;}
 
 
@@ -408,7 +408,7 @@ Footer
   color:#000000;
 }
 .page-footer .page-footer-tools .go-top {
-  background-color:#ffb300;
+  background-color:#000000;
 }
 .page-footer .page-footer-tools .go-top:hover {
   opacity: 0.7;

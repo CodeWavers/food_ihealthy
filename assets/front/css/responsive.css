@@ -230,6 +230,7 @@
 	}
 	#example-one {
 		top: 52px;
+
 	}
 	.your-doorstep > p {
 		font-size: 2rem; /* Adjust as needed for smaller screens */
@@ -527,21 +528,19 @@
 		margin-bottom: 12px;
 	}
 	.inner-pages-form .form-group.search-restaurant input[type="button"] {
-		border-radius: 0 5px 5px 0;
+		border-radius: 10px 0 0 10px;
 		padding-left: 20px;
 		padding-right: 20px;
 		font-size: 0;
-		background-image: url(../images/search.svg);
-		background-size: 17px auto;
-		background-position: left 11px center;
-		background-repeat: no-repeat;
+		background: transparent url(../images/search-icon.svg) no-repeat left 12px center / 18px auto;
+		border: 2px solid #ADADAD;
 		width: auto;
 		height: 40px !important;
+		border-left: 0px;
 	}
 	.inner-pages-form .form-group.search-restaurant input[type="button"]:focus,.inner-pages-form .form-group.search-restaurant input[type="button"]:hover, .inner-pages-form .form-group.search-restaurant input[type="button"]:active {
-		background-color: #E24A4B;
-    	background-color:  var(--main-color);
-    	background-image: url(../images/search.svg);
+
+		background: transparent url(../images/search-icon.svg) no-repeat left 12px center / 18px auto;
 	}
 	.inner-pages-form .form-group.search-restaurant .bootstrap-tagsinput {
     	width: calc(100% - 44px);
@@ -766,10 +765,10 @@
 	.your-doorstep {
 		text-align: center; /* Center the content */
 		padding: 20px 0; /* Add padding to top and bottom */
-		top:80%;
+		/*top:80%;*/
 	}
 	.your-doorstep > p {
-		font-size: 2rem; /* Adjust as needed for even smaller screens */
+		font-size: 1.9rem; /* Adjust as needed for even smaller screens */
 	}
 
 
@@ -782,6 +781,11 @@
 		font-size: 1.5rem; /* Adjust as needed for even smaller screens */
 			top:80%;
 	}
-
-
+	.social-icon ul {
+		justify-content: center;
+	}
+	.copyright p {
+		font-size: 14px;
+		text-align: center;
+	}
 }
