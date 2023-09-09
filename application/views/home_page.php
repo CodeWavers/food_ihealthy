@@ -104,7 +104,8 @@
 						</div>
 						<p><?php echo $this->lang->line('home_menu_text') ?></p>
 						<div class="white-button">
-							<input type="button" name="order_now" value="<?php echo $this->lang->line('order_now'); ?>" class="btn" onclick="fillInAddress('home_page')">
+							<input type="button" value="<?php echo $this->lang->line('order_now'); ?>" class="btn" onclick="window.location.href='<?php echo base_url() . 'restaurant'; ?>'">
+
 						</div>
 					</div>
 				</div>
@@ -132,7 +133,8 @@
 						</div>
 						<p><?php echo $this->lang->line('home_about_text') ?></p>
 						<div class="white-button">
-							<input type="button" name="read_more" value="<?php echo $this->lang->line('read_more'); ?>" class="btn">
+							<input type="button" value="<?php echo $this->lang->line('read_more'); ?>" class="btn" onclick="window.location.href='<?php echo base_url() . 'about-us'; ?>'">
+
 						</div>
 					</div>
 				</div>
