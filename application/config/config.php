@@ -50,14 +50,14 @@ define('FCM_RES_KEY', 'AAAARQExLzM:APA91bG4BTLmPTz-DLzguO9OrJ_mFGGeA5yNp4-uxP9v6
 define('default_img', $root . "assets/front/images/placeholder_image.png");
 define('default_user_img', $root . "assets/front/images/user-login.jpg");
 define('cms_banner_img', $root . "assets/front/images/recipe-banner.png");
-define('APP_ANDROID_VERSION', array('3.0.0'));
-define('APP_IOS_VERSION', array('3.0.0'));
+define('APP_ANDROID_VERSION', array('4.0.1','4.0.2'));
+define('APP_IOS_VERSION', array('3.0.0','4.0.2'));
 define('MAP_API_KEY', 'AIzaSyDJkREeL-PpO7Z45k-MsD5sJD_m1mzNGEk');
 define('ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodiBd&hl=en&gl=US');
 define('IOS_APK_LINK', 'https://apps.apple.com/us/app/foodi-food-delivery/id1610910233');
 define('RIDER_ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodirider');
-define('RESTAURANT_ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodirider');
-define('DEEP_LINK_BASE_URL', "https://localhost/git/food_ihealthy/" . 'applink/');
+define('DEEP_LINK_BASE_URL', "https://foodaani.com/test_ihealthy/" . 'applink/');
+
 
 /*
 |--------------------------------------------------------------------------
@@ -171,7 +171,8 @@ $config['subclass_prefix'] = 'MY_';
 |	autoloading (application/config/autoload.php)
 */
 $config['composer_autoload'] = FALSE;
-require_once 'vendor\autoload.php';
+require_once 'vendor/autoload.php';
+
 
 /*
 |--------------------------------------------------------------------------
