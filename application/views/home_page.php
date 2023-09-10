@@ -143,46 +143,46 @@
 	</section>
 
 
-	<section class="restaurant-app">
-		<div class="restaurant-app-content">
-			<div class="row">
-				<div class="col-md-6 col-sm-12">
-					<div class="restaurant-app-text">
-						<div class="heading-title-02">
-							<h4><?php echo $this->lang->line('video') ?></h4>
-						</div>
-						<p><?php echo $this->lang->line('home_video_text') ?></p>
-
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12">
-					<div class="restaurant-app-img wow pulse">
-
-						<video controls autoplay loop muted width="100%" height="100%">
-							<source src="<?php echo base_url(); ?>assets/front/video/video.mp4" type="video/mp4">
-							Your browser does not support the video tag.
-						</video>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 <!--	<section class="restaurant-app">-->
 <!--		<div class="restaurant-app-content">-->
+<!--			<div class="row">-->
+<!--				<div class="col-md-6 col-sm-12">-->
+<!--					<div class="restaurant-app-text">-->
+<!--						<div class="heading-title-02">-->
+<!--							<h4>--><?php //echo $this->lang->line('video') ?><!--</h4>-->
+<!--						</div>-->
+<!--						<p>--><?php //echo $this->lang->line('home_video_text') ?><!--</p>-->
 <!---->
-<!--				<div class="col-md-12 col-sm-12">-->
+<!--					</div>-->
+<!--				</div>-->
+<!--				<div class="col-md-6 col-sm-12">-->
+<!--					<div class="restaurant-app-img wow pulse">-->
 <!---->
-
 <!--						<video controls autoplay loop muted width="100%" height="100%">-->
-
 <!--							<source src="--><?php //echo base_url(); ?><!--assets/front/video/video.mp4" type="video/mp4">-->
 <!--							Your browser does not support the video tag.-->
 <!--						</video>-->
-<!---->
+<!--					</div>-->
 <!--				</div>-->
 <!--			</div>-->
-<!---->
+<!--		</div>-->
 <!--	</section>-->
+	<section class="restaurant-app">
+		<div class="restaurant-app-content">
+
+
+
+
+						<video controls autoplay loop muted width="100%" height="100%">
+
+							<source src="<?php echo base_url(); ?>assets/front/video/video.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+
+				</div>
+
+
+	</section>
 	<section class="restaurant-app">
 
 		<div class="reserve-form">

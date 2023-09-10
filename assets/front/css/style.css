@@ -67,7 +67,7 @@ input:focus , button:focus , a:focus{
 .float-form .form-group label {
 	color: #161212;
 	font-weight: 700;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	position: absolute;
 	pointer-events: none;
 	transition: 0.2s ease all;
@@ -97,7 +97,7 @@ input:focus , button:focus , a:focus{
 
 .float-form .form-control:focus~label {
     top: -16px;
-    font-size: 19px;
+    /*font-size: 19px;*/
     color: #727272;
     /*color: var(--main-color);*/
     font-weight: 700;
