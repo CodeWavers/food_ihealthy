@@ -157,9 +157,8 @@
 				</div>
 				<div class="col-md-6 col-sm-12">
 					<div class="restaurant-app-img wow pulse">
-						<!-- Video Player -->
+
 						<video controls autoplay loop muted width="100%" height="100%">
-							<!--			<source src="https://youtu.be/668nUCeBHyY" type="video/mp4">-->
 							<source src="<?php echo base_url(); ?>assets/front/video/video.mp4" type="video/mp4">
 							Your browser does not support the video tag.
 						</video>
@@ -168,21 +167,87 @@
 			</div>
 		</div>
 	</section>
-
-
-<!--	<section class="restaurant-contact-div">-->
-<!--		<div class="contact-left text-right">-->
-<!--		</div>-->
+<!--	<section class="restaurant-app">-->
+<!--		<div class="restaurant-app-content">-->
 <!---->
-<!--		<div class="video-container">-->
-<!--
-			<video controls autoplay loop muted width="100%" height="100%">-->
-<!--							<source src="https://youtu.be/668nUCeBHyY" type="video/mp4">-->
-<!--				<source src="--><?php //echo base_url(); ?><!--assets/front/video/video.mp4" type="video/mp4">-->
-<!--				Your browser does not support the video tag.-->
-<!--			</video>-->
-<!--		</div>-->
+<!--				<div class="col-md-12 col-sm-12">-->
+<!---->
+
+<!--						<video controls autoplay loop muted width="100%" height="100%">-->
+
+<!--							<source src="--><?php //echo base_url(); ?><!--assets/front/video/video.mp4" type="video/mp4">-->
+<!--							Your browser does not support the video tag.-->
+<!--						</video>-->
+<!---->
+<!--				</div>-->
+<!--			</div>-->
+<!---->
 <!--	</section>-->
+	<section class="restaurant-app">
+
+		<div class="reserve-form">
+
+			<div class="row">
+				<div class="col-md-2 col-sm-2">
+
+						<div class="box-h2">
+							<h2 class="text-center"><?php echo $this->lang->line('reservation') ?></h2>
+						</div>
+
+				</div>
+				<div class="col-md-10 col-sm-10">
+
+					<div class="container">
+						<form id="check_event_availability" name="check_event_availability" method="post" class="form-horizontal float-form">
+
+						<div class="row justify-content-center">
+							<div class="col-lg-6 col-md-6 col-sm-12">
+									<input type="hidden" name="restaurant_id" id="restaurant_id" value="<?php echo $restaurant_details['restaurant'][0]['restaurant_id']; ?>">
+									<input type="hidden" name="user_id" id="user_id" value="<?php echo $this->session->userdata('UserID'); ?>">
+
+									<div class="form-group">
+										<input type="text" name="branch_name" id="branch_name" class="form-control" placeholder="">
+										<label for="name"><?php echo $this->lang->line('select_branch') ?></label>
+
+									</div>
+
+									<div class="form-group">
+										<input type="email" name="email" id="email" class="form-control" placeholder="">
+										<label for="email"><?php echo $this->lang->line('booking_date') ?></label>
+
+									</div>
+
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12">
+
+									<div class="form-group">
+										<input type="text" name="name" id="name" class="form-control" placeholder="">
+										<label for="name"><?php echo $this->lang->line('no_of_guest') ?></label>
+
+									</div>
+
+									<div class="form-group">
+										<input type="email" name="email" id="email" class="form-control" placeholder="">
+										<label for="email"><?php echo $this->lang->line('booking_time') ?></label>
+
+									</div>
+
+							</div>
+						</div>
+							<div class="continue-btn">
+								<button type="submit" name="submit_page" id="submit_page" value="Check Availability" class="btn btn-success danger-btn"><?php echo $this->lang->line('check_avail') ?></button>
+							</div>
+						</form>
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
 </div>
 
 

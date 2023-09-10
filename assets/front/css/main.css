@@ -1135,7 +1135,7 @@ body.fixed {
 .carousel-inner img {
 	width: 100%;
 	height: auto; /* This will maintain the aspect ratio of the images */
-	max-height: 450px; /* Adjust this value as needed for the fixed height */
+	max-height: 585px; /* Adjust this value as needed for the fixed height */
 }
 
 /*.carousel-indicators li{*/
@@ -1732,6 +1732,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	background: var(--main-color);
 	padding: 50px 0 7px;
 	color: white;
+	margin-top: 1%;
 }
 
 .footer-area .row {
@@ -1831,7 +1832,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 
 }
 .footer-links {
-	padding-left: 20px;
+	padding-left: 100px;
 	color: #FFF;
 	font-family: 'Spartan' !important;
 	font-style: normal;
@@ -2450,6 +2451,69 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 
 /* ====== Order food end ======== ============================== */
 
+.box-h2{
+	background:#fff !important;
+	margin-left: -80px;
+	margin-top:50%
+}
+
+.reserve-form h2 {
+	margin-bottom: 2rem;
+	font-size: 25px;
+	font-weight: 700;
+	text-align:start !important;
+
+}
+
+.reserve-form {
+	max-width: inherit;
+	margin: auto;
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0px 10px 40px rgba(180, 180, 180, 0.3);
+	border: 2px solid #8C8C8C;
+	width: 80%;
+	/*font-family: "Josefins Sans" !important;*/
+	font-family: KoHo, serif !important;
+	border-radius: 10px;
+}
+
+.reserve-form .float-form .form-control {
+	font-size: 17px;
+}
+
+.reserve-form .float-form .form-control:not(textarea) {
+	height: 45px;
+	padding: 0 23px;
+}
+
+.reserve-form.float-form .form-control:not(:placeholder-shown)~label {
+	top: -12px;
+	font-size: 16px;
+}
+
+.reserve-form.float-form .form-control:focus~label {
+	top: -12px;
+	font-size: 16px;
+
+}
+
+.reserve-form .form-group textarea {
+	height: 154px;
+	border-radius: 10px;
+	resize: none;
+	padding: 15px;
+}
+
+.reserve-form.form-group label {
+	top: 9px;
+	font-size: 16px;
+	left: 13px;
+}
+
+.reserve-form button.btn {
+	font-weight: 700;
+}
 
 /* ====== Restaurant detail start ======== ======================================= */
 

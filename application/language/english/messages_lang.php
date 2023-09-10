@@ -705,6 +705,11 @@ $lang['res_details_text2'] = 'Do you still want to add this item as other cart i
 $lang['discard_old'] = 'Yes, Discard the items and add the new item.';
 $lang['keep_old'] = 'No, keep the old items in the cart.';
 $lang['send_us_msg'] = 'Send Us Message';
+$lang['reservation'] = 'Reservation';
+$lang['select_branch'] = 'Select Branch';
+$lang['booking_date'] = 'Booking Date';
+$lang['booking_time'] = 'Booking Time';
+$lang['no_of_guest'] = 'Number of guests';
 
 
 //new changes

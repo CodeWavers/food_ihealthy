@@ -2649,7 +2649,7 @@ Customized Bootstrap Pagination
 .pagination .active > a, .pagination .active > a:hover, .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {	
     background-color:#000000 !important;
        border-color: #000000!important;
-      color: #000;
+      /*color: #000;*/
 }
 .pagination>li>a, .pagination>li>span {
 	border: 1px solid #DDDDDD;

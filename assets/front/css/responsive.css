@@ -772,6 +772,7 @@
 	}
 
 
+
 }
 @media (max-width: 480px) {
 	.carousel-indicators{
@@ -787,5 +788,9 @@
 	.copyright p {
 		font-size: 14px;
 		text-align: center;
+	}
+	.box-h2{
+		/*margin-left: -80px;*/
+		margin-top:0%
 	}
 }

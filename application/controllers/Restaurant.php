@@ -58,7 +58,9 @@ class Restaurant extends CI_Controller
 				$result[$key]['timings'] = (array) $result[$key]['timings'];
 			}
 		}
+
 		$countResult = $result[0]['res_count'];
+//		echo '<pre>';print_r($countResult);exit();
 		$data['restaurants'] = $result;
 		$data['TotalRecord'] = $countResult;
 		// $data['restaurants'] = $result;
@@ -88,6 +90,7 @@ class Restaurant extends CI_Controller
 		$config['uri_segment'] = 3;
 		$this->ajax_pagination->initialize($config);
 		$data['PaginationLinks'] = $this->ajax_pagination->create_links();
+
 		$this->load->view('order_food', $data);
 	}
 

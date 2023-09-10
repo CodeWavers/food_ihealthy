@@ -66,7 +66,7 @@ input:focus , button:focus , a:focus{
 
 .float-form .form-group label {
 	color: #161212;
-	font-weight: 400;
+	font-weight: 700;
 	font-size: 18px;
 	position: absolute;
 	pointer-events: none;
@@ -77,6 +77,8 @@ input:focus , button:focus , a:focus{
 	left: 16px;
 	top: 11px;
 	padding: 0 10px;
+	/*font-family: "Josefins Sans" !important;*/
+	font-family: KoHo, serif !important;
 }
 
 .float-form .form-control {
@@ -86,6 +88,7 @@ input:focus , button:focus , a:focus{
     font-size: 16px;
     color: #161212;
     letter-spacing: 0.02em;
+	border: 2px solid #727272 !important;
 }
 
 .float-form input.form-control[type="password"] {
@@ -95,17 +98,18 @@ input:focus , button:focus , a:focus{
 .float-form .form-control:focus~label {
     top: -16px;
     font-size: 19px;
-    color: #ffb300;
-    color: var(--main-color);
+    color: #727272;
+    /*color: var(--main-color);*/
     font-weight: 700;
     background-color: #fff;
+
 }
 
 .float-form .form-control:not(:placeholder-shown)~label {
     top: -16px;
     font-size: 19px;
-    color: #ffb300;
-    color: var(--main-color);
+    color: #727272;
+    /*color: var(--main-color);*/
     font-weight: 700;
     background-color: #fff;
 }
