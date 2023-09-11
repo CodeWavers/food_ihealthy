@@ -774,12 +774,18 @@
 		/*margin-left: -80px;*/
 		margin-top:0%
 	}
-
+	.restaurant-app-img{
+		margin: 0px auto 20px;
+		max-width: 500px;
+		width: 100%;
+	}
 
 }
 @media (max-width: 480px) {
-	.carousel-indicators{
-		display: none;
+
+	.carousel-indicators li{
+		width: 30px !important;
+		height: 6px !important;
 	}
 	.your-doorstep > p {
 		font-size: 1.5rem; /* Adjust as needed for even smaller screens */

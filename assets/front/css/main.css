@@ -1664,6 +1664,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	padding-left: 0px;
 	position: relative;
 	z-index: 9;
+	margin-left: 10px !important;
 }
 
 .restaurant-app-text p,
@@ -1797,6 +1798,15 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 .social-icon ul li:first-child {
 	margin-left: 0px;
 }
+.Ximages {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.Xrow {
+	margin: 0 !important;
+}
+
+
 
 .social-icon ul li a {
 	color: #fff;
@@ -5872,7 +5882,7 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 	}
 	.restaurant-app-img {
 		margin-left: 0px;
-		width: 600px;
+		/*width: 600px;*/
 	}
 	.restaurant-app-text {
 		max-width: 450px;
@@ -5928,6 +5938,7 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 	.driver-app-content p {
 		font-size: 16px;
 		line-height: 30px;
+		margin-right: 20px;
 	}
 	.driver-app {
 		margin: 50px 0;
@@ -6369,21 +6380,22 @@ button.btn.res-menu:hover:before, button.btn.res-menu:focus:before {
 		flex-wrap: wrap;
 	}
 	.restaurant-app-img {
-		margin: 0px auto 20px;
-		max-width: 500px;
+		/*margin: 0px auto 20px;*/
+		/*max-width: 500px;*/
 		width: 100%;
 	}
 	.restaurant-app-content {
 		background: white;
-		padding: 20px;
+		/*padding: 20px;*/
 		border: 0;
 		border-radius: 0 50px;
 	}
 	.restaurant-app-text {
 		padding: 0px ;
 		max-width: 100%;
-		text-align: center;
+		/*text-align: center;*/
 		padding-left: 0px !important;
+		margin-bottom: 30px;
 	}
 	.restaurant-app .app-download {
 		margin: auto;

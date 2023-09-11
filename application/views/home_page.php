@@ -94,10 +94,12 @@
 <!-- Modal -->
 
 <div class="container">
+
+
 	<section class="restaurant-app">
 		<div class="restaurant-app-content">
-			<div class="row">
-				<div class="col-md-6 col-sm-12">
+			<div class="row Xrow">
+				<div class="col-md-6 col-sm-12 Ximages">
 					<div class="restaurant-app-text">
 						<div class="heading-title-02">
 							<h4><?php echo $this->lang->line('menu') ?></h4>
@@ -109,7 +111,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12">
+				<div class="col-md-6 col-sm-12 Ximages">
 					<div class="restaurant-app-img wow pulse">
 						<img src="<?php echo base_url(); ?>assets/front/images/menu_banner.jpg" alt="Restaurant app">
 					</div>
@@ -120,13 +122,13 @@
 
 	<section class="restaurant-app">
 		<div class="restaurant-app-content">
-			<div class="row">
-				<div class="col-md-6 col-sm-12">
+			<div class="row Xrow">
+				<div class="col-md-6 col-sm-12 Ximages">
 					<div class="restaurant-app-img wow pulse">
 						<img src="<?php echo base_url(); ?>assets/front/images/about_banner.jpg" alt="About">
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12">
+				<div class="col-md-6 col-sm-12 Ximages">
 					<div class="restaurant-app-text restaurant-app-text-left">
 						<div class="heading-title-02">
 							<h4><?php echo $this->lang->line('about_home') ?></h4>
