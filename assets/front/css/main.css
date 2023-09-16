@@ -2486,6 +2486,7 @@ font-size: calc(35px + 30 * ((100vw - 300px) / (1920 - 300)));
 	/*font-family: "Josefins Sans" !important;*/
 	font-family: KoHo, serif !important;
 	border-radius: 10px;
+	margin-top:3%;
 }
 
 .reserve-form .float-form .form-control {

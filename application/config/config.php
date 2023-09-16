@@ -45,14 +45,14 @@ define('MINIMUM_RANGE', '0');
 define('image_url', "https://storage.googleapis.com/static.foodibd.com/uploads/");
 define('Driver_FCM_KEY', 'AAAAAvWmzK4:APA91bH_TCDjPcjp-xfRUjsKVXYPSfpbrD4ikXTTpl3LPby07ZOiD5YdnhEi1IeO0aDcT9tmqpAGjq5uzLKHVqTD2rUml4_0DvfcNs3FTyLX8kdUGmQrhij3omwEj8C9aS7A9EmUtXxG'); //AIzaSyA09RLiIOwY2hCfvIxLwOGC0aosCJK_bWg
 // define('FCM_KEY','AIzaSyA5vVchINGuJKQqwZw8Xm99ymQJDJKQRrY');
-define('FCM_KEY', 'AAAAHtKsGVY:APA91bFOnjwnaXR5qs194U_n0Yxj-N5ONDT14hsh31dT8Ndc9SidbK5KzsxBxuQJ7E_zXvXGwdqiHeBOQ2MA5q2W7PqGVdU9xUVRjELUr5-suiFaGZNg-yMstsr9xXH542UPa8wVxaBs');
-define('FCM_RES_KEY', 'AAAARQExLzM:APA91bG4BTLmPTz-DLzguO9OrJ_mFGGeA5yNp4-uxP9v6Tg8T3NnZrviBhz4Vs211ynE66IPzrsitaJcdV7iPCihzP34LqFShuBzWE-DP044uxc4WS7JQOGPWLgwiGmOzXCnmJIN8brp');
+define('FCM_KEY', 'AAAAVGeSKPw:APA91bGhxuWNp-00O6QCZwjsSw36Jp90DrUwVK76KGFWT78a-evGJF_ugVh6z3whBBBzOfYHy5iRurGmRscGMY0Nz5cVk8n8EnTDBrD6X8CEZAVQZccsMszb_GFkUSnCQ7glbgRsxZNd');
+define('FCM_RES_KEY', 'AAAAVGeSKPw:APA91bGhxuWNp-00O6QCZwjsSw36Jp90DrUwVK76KGFWT78a-evGJF_ugVh6z3whBBBzOfYHy5iRurGmRscGMY0Nz5cVk8n8EnTDBrD6X8CEZAVQZccsMszb_GFkUSnCQ7glbgRsxZNd');
 define('default_img', $root . "assets/front/images/placeholder_image.png");
 define('default_user_img', $root . "assets/front/images/user-login.jpg");
 define('cms_banner_img', $root . "assets/front/images/recipe-banner.png");
 define('APP_ANDROID_VERSION', array('4.0.1','4.0.2'));
 define('APP_IOS_VERSION', array('3.0.0','4.0.2'));
-define('MAP_API_KEY', 'AIzaSyDJkREeL-PpO7Z45k-MsD5sJD_m1mzNGEk');
+define('MAP_API_KEY', 'AIzaSyANO7UcO8EO1_9y3TaSZS5E_E9cFOpiEl8');
 define('ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodiBd&hl=en&gl=US');
 define('IOS_APK_LINK', 'https://apps.apple.com/us/app/foodi-food-delivery/id1610910233');
 define('RIDER_ANDROID_APK_LINK', 'https://play.google.com/store/apps/details?id=com.foodirider');

@@ -800,7 +800,7 @@ class Order_model extends CI_Model
 			$res_long = $res->resLong;
 			$driver_lat = $res->latitude;
 			$driver_long = $res->longitude;
-			$url = "https://maps.googleapis.com/maps/api/directions/json?origin=" . $res_lat . "," . $res_long . "&destination=" . $driver_lat . "," . $driver_long . "&key=AIzaSyDJkREeL-PpO7Z45k-MsD5sJD_m1mzNGEk&mode=driving";
+			$url = "https://maps.googleapis.com/maps/api/directions/json?origin=" . $res_lat . "," . $res_long . "&destination=" . $driver_lat . "," . $driver_long . "&key=AIzaSyANO7UcO8EO1_9y3TaSZS5E_E9cFOpiEl8&mode=driving";
 
 			$ch = curl_init();
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -822,7 +822,7 @@ class Order_model extends CI_Model
 			$result[$i]->user_longitude = $user_long;
 			$i++;
 		}
-		$url = "https://maps.googleapis.com/maps/api/directions/json?origin=" . $res_lat . "," . $res_long . "&destination=" . $user_lat . "," . $user_long . "&key=AIzaSyDJkREeL-PpO7Z45k-MsD5sJD_m1mzNGEk&mode=driving";
+		$url = "https://maps.googleapis.com/maps/api/directions/json?origin=" . $res_lat . "," . $res_long . "&destination=" . $user_lat . "," . $user_long . "&key=AIzaSyANO7UcO8EO1_9y3TaSZS5E_E9cFOpiEl8&mode=driving";
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($ch, CURLOPT_URL, $url);
